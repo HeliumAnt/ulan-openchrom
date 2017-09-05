@@ -2,7 +2,7 @@
 <feature
       id="org.chromulan.system.control.feature"
       label="CHROMuLAN Control"
-      version="1.0.0.qualifier"
+      version="1.2.0.qualifier"
       provider-name="CHROMuLAN">
 
    <description url="http://www.openchrom.net">
@@ -29,7 +29,35 @@ http://www.eclipse.org/legal/epl-v10.html
          unpack="false"/>
 
    <plugin
+         id="org.chromulan.system.control.devices"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromulan.system.control.net"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.chromulan.system.control.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromulan.system.control.manager"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromulan.system.control.hitachi.l3000"
          download-size="0"
          install-size="0"
          version="0.0.0"

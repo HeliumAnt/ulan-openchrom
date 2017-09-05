@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="org.chromulan.system.control.devices.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+   <extension
+         id="org.chromulan.system.control.devices.supplier"
+         point="org.chromulan.system.control.manager.devicesupplier">
+      <DeviceSupplier
+            Create_Device="org.chromulan.system.control.devices.supplier.UlanCreateDevice">
+      </DeviceSupplier>
+   </extension>
+</plugin>
